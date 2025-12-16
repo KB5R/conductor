@@ -1,4 +1,4 @@
-# Python-generated files
+# DUMP
 __pycache__/
 *.py[oc]
 build/
@@ -6,15 +6,7 @@ dist/
 ipa_scripts/
 wheels/
 *.egg-info
-
-# Virtual environments
 .venv
-
-# Environment variables
 .env
-
-# Logs
 *.log
-
-# Generated reports
 *.csv
