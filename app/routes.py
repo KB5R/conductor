@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routers import auth, users, bulk, reports, yopass
+from app.routers import auth, users, bulk, reports, yopass, templates
 
 def setup_routes(app: FastAPI) -> None:
     app.include_router(auth.router, tags=["Authentication"])
@@ -7,3 +7,4 @@ def setup_routes(app: FastAPI) -> None:
     app.include_router(bulk.router, tags=["Users - Bulk"])
     app.include_router(reports.router, tags=["Analytics"])
     app.include_router(yopass.router, tags=["Yopass"])
+    app.include_router(templates.router, tags=["Template"])
