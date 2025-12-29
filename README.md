@@ -37,6 +37,9 @@ REST API для управления пользователями FreeIPA с п�
 ├── bin/                         # Бинарные файлы
 │   └── yopass                  # Yopass CLI утилита
 │
+├── templates/                         # Шаблоны
+│   └── freeipa_users_template.xlsx    # Шаблон для создания пользователей(excel)
+│
 ├── main.py                      # Точка входа приложения (10 строк)
 ├── pyproject.toml              # Зависимости проекта (uv)
 ├── .env                        # Переменные окружения (не в git!)
